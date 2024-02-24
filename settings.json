@@ -1,0 +1,242 @@
+{
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.fontSize": 18,
+  "editor.fontFamily": "Hack, monospace",
+  "workbench.colorTheme": "Vim Dark Hard",
+  "debug.javascript.autoAttachFilter": "disabled",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.iconTheme": "vscode-icons",
+  "code-runner.runInTerminal": true,
+  "[c]": {
+    "editor.wordBasedSuggestions": "off",
+    "editor.suggest.insertMode": "replace",
+    "editor.semanticHighlighting.enabled": true
+  },
+  "git.suggestSmartCommit": false,
+  "editor.codeActionsOnSave": {},
+  "json.schemas": [],
+  "files.associations": {
+    "*.h": "c",
+    "*.css": "tailwindcss",
+    "*.X68": "vasmmot"
+  },
+  "http.proxyAuthorization": null,
+  "remote.SSH.remotePlatform": {
+    "linux": "linux",
+    "192.168.40.10": "macOS",
+    "Mac": "macOS",
+    "192.168.40.37": "macOS",
+    "mac": "macOS",
+    "192.168.40.12": "macOS"
+  },
+  "git.openRepositoryInParentFolders": "always",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.wordWrap": "on",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "codeium.enableConfig": {
+    "*": false,
+    "Log": true,
+    "tailwindcss": true,
+    "graphql": true,
+    "gml": true,
+    "ada": true
+  },
+  "editor.formatOnSave": true,
+  "codeium.enableSearch": true,
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.cursorBlinking": "phase",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "terminal.integrated.cursorStyle": "line",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "security.allowedUNCHosts": [
+    "wsl.localhost"
+  ],
+  "terminal.integrated.fontSize": 16,
+  "redhat.telemetry.enabled": true,
+  "terminal.integrated.commandsToSkipShell": [
+    "language-julia.interrupt"
+  ],
+  "julia.symbolCacheDownload": true,
+  "julia.enableTelemetry": false,
+  "tailwind-fold.foldedText": "class",
+  "[yy]": {
+    "editor.defaultFormatter": "bscotch.bscotch-stitch-vscode"
+  },
+  "terminal.integrated.fontFamily": "iMWritingMono Nerd Font",
+  "terminal.integrated.scrollback": 10000,
+  "debug.autoExpandLazyVariables": true,
+  "tailwind-fold.autoFold": true,
+  "workbench.colorCustomizations": {},
+  "julia.environmentPath": "",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[gml]": {},
+  "fortran.formatting.formatter": "fprettify",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "remote.autoForwardPortsSource": "hybrid",
+  "ada.projectFile": "default.gpr",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "vim.showMarksInGutter": false,
+  "vim.foldfix": true,
+  "vim.surround": true,
+  "vim.easymotion": true,
+  "vim.easymotionKeys": "asdghklqwertyuiopzxcvbnmfj",
+  "vim.leader": "<space>",
+  "vim.insertModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<C-s>"
+      ],
+      "commands": [
+        "workbench.action.files.save",
+        "extension.vim_escape"
+      ]
+    }
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "<C-x>"
+      ],
+      "commands": [
+        "editor.action.clipboardCutAction"
+      ]
+    },
+    {
+      "before": [
+        "<C-v>"
+      ],
+      "commands": [
+        "editor.action.clipboardPasteAction"
+      ]
+    },
+    {
+      "before": [
+        "<C-c>"
+      ],
+      "commands": [
+        "editor.action.clipboardCopyAction"
+      ]
+    },
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        ":"
+      ],
+      "commands": [
+        "workbench.action.showCommands",
+      ],
+      "silent": true
+    },
+    {
+      "before": [
+        "<leader>",
+        "e"
+      ],
+      "commands": [
+        "workbench.view.explorer"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "b",
+        "d"
+      ],
+      "commands": [
+        "workbench.action.closeActiveEditor"
+      ]
+    },
+    {
+      "before": [
+        "<S-l>"
+      ],
+      "commands": [
+        "workbench.action.nextEditorInGroup",
+      ]
+    },
+    {
+      "before": [
+        "<S-h>"
+      ],
+      "commands": [
+        "workbench.action.previousEditorInGroup"
+      ]
+    },
+    {
+      "before": [
+        "<C-h>"
+      ],
+      "commands": [
+        "workbench.action.navigateLeft"
+      ]
+    },
+    {
+      "before": [
+        "<C-l>"
+      ],
+      "commands": [
+        "workbench.action.navigateRight"
+      ]
+    },
+    {
+      "before": [
+        "<S-k>"
+      ],
+      "commands": [
+        "editor.action.showHover"
+      ]
+    },
+    {
+      "before": [
+        "z",
+        "m"
+      ],
+      "commands": [
+        "editor.fold"
+      ]
+    },
+    {
+      "before": [
+        "z",
+        "o"
+      ],
+      "commands": [
+        "editor.unfold"
+      ]
+    },
+  ],
+  "vim.useSystemClipboard": true,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  }
+}
