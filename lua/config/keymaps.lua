@@ -9,4 +9,5 @@ local opts = { noremap = true, silent = true }
 keymap.set("i", "<C-BS>", "<C-W>", opts) -- delete whole word with delete
 keymap.set("i", "<C-S-Left", "<ESC>biw", opts)
 keymap.set("i", "<C-S-Right", "<ESC>eiw", opts)
+keymap.set("i", "jj", "<ESC>", opts)
 -- --
